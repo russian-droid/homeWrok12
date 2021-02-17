@@ -5,6 +5,7 @@ repeatStr(5, "Hello") // "HelloHelloHelloHelloHello"
 '''
 
 def repeat_str(repeat, string):
+    new_str=''
     for j in range(repeat):
-            print(string, end='')
-    return ''
+        new_str +=string
+    return new_str    
