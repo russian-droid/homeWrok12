@@ -7,6 +7,8 @@ repeatStr(5, "Hello") // "HelloHelloHelloHelloHello"
 '''
 
 def repeat_str(repeat, string):
+    #create a variable and keep adding to it, 
+    #later we return the variable because we can't return print()
     new_str=''
     for j in range(repeat):
         new_str +=string
