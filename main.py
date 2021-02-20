@@ -14,7 +14,7 @@ def repeat_str(repeat, string):
         new_str +=string
     return new_str    
 
-#------another more efficient way
+#------another way
 def repeat_str(repeat, string):
     new_str=''
     new_str=repeat*string
