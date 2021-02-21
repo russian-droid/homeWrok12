@@ -1,5 +1,5 @@
 '''
-CodeWars kata codewars.com
+CodeWars kata from codewars.com
 
 Write a function called repeat_str which repeats the given string src exactly count times.
 repeatStr(6, "I") // "IIIIII"
